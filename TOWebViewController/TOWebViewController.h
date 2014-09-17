@@ -59,6 +59,13 @@
  */
 @property (nonatomic,readonly)  UIWebView *webView;
 
+
+/**
+ Sets the done button's color, on the right hand side of the navigation bar
+ */
+
+@property (nonatomic, assign) UIColor *doneButtonColor;
+
 /** 
  Shows a loading progress bar underneath the top navigation bar. 
  
